@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@hookform/resolvers": "^3.9.1",
+    "chart.js": "^4.4.6",
+    "react-chartjs-2": "^5.2.0",
+    "react-hook-form": "^7.53.2",
+    "react-input-mask": "^2.0.4",
+    "styled-components": "^6.1.13",
+    "yup": "^1.4.0"
+  }
+}

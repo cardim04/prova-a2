@@ -1,0 +1,186 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo e fundo */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7; /* Fundo claro e suave */
+  color: #333;
+  padding: 20px;
+}
+
+/* Container principal */
+div {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Estilo do menu de navegação */
+nav {
+  background-color: #a8d8e8; /* Azul pastel */
+  padding: 15px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li button {
+  background-color: #ffffff;
+  border: 1px solid #a8d8e8;
+  color: #4CAF50;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li button:hover {
+  background-color: #8cc9d1; /* Azul pastel mais intenso */
+  color: white;
+}
+
+/* Estilo dos títulos */
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Formulários */
+form {
+  background-color: #fdfdfe; /* Branco suavezinho */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Sombra suave */
+  margin-bottom: 30px;
+}
+
+form label {
+  font-weight: bold;
+  margin-bottom: 8px;
+  display: inline-block;
+}
+
+form input,
+form select,
+form button,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Cor das respostas */
+form input:focus,
+form select:focus {
+  background-color: #ffffff; /* Fundo branco quando em foco */
+  border-color: #77c36a; /* Verde pastel para as bordas */
+  color: #333; /* Cor do texto escuro para melhor contraste */
+}
+
+/* Cor de fundo padrão */
+form input,
+form select {
+  background-color: #ffffff; /* Fundo branco */
+  color: #333; /* Cor do texto escuro */
+  border: 1px solid #ccc; /* Cor da borda */
+}
+
+/* Cor de borda no foco */
+form input:focus,
+form select:focus {
+  border-color: #77c36a; /* Verde pastel para as bordas */
+}
+
+
+
+form button {
+  background-color: #77c36a; /* Verde pastel */
+  color: white;
+  cursor: pointer;
+  margin-top: 10px; /* Espaçamento extra no topo */
+}
+
+form button:hover {
+  background-color: #66b254; /* Verde mais escuro */
+}
+
+/* Listas */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 20px;
+  background-color: #ffffff; /* Fundo branco suave */
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+ul li button {
+  background-color: #f4a261; /* Laranja pastel */
+  color: white;
+  padding: 6px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px; /* Espaço extra entre os botões */
+}
+
+ul li button:hover {
+  background-color: #e47a47; /* Laranja mais intenso */
+}
+
+ul li span {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Seções e formatação */
+section {
+  margin-bottom: 40px;
+}
+
+section:last-of-type {
+  margin-bottom: 0;
+}
+
+/* Caixa de observações */
+form textarea {
+  background-color: #ffffff; /* Fundo branco */
+  color: #333; /* Cor do texto escuro */
+  border: 1px solid #ccc; /* Cor da borda */
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%; /* Garante que ocupe toda a largura do formulário */
+}
+
+/* Cor das respostas no textarea */
+form textarea:focus {
+  background-color: #ffffff; /* Fundo branco quando em foco */
+  border-color: #77c36a; /* Verde pastel para as bordas */
+  color: #333; /* Cor do texto escuro */
+}
